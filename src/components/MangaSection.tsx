@@ -87,16 +87,16 @@ export default function MangaSection({ imageSrc = "/manga.svg", showBack = true 
                         {/* Angled Footer Section */}
                         {/* Width matches parent (max-w-2xl) */}
                         <div className="relative w-full bg-[#F2666D] mt-[-50px] pt-12 pb-12 px-6" style={{ clipPath: "polygon(0 25%, 100% 0, 100% 100%, 0% 100%)" }}>
-                            <div className="flex flex-col md:flex-row justify-between items-end md:items-center gap-8">
+                            <div className="flex flex-col-reverse md:flex-row items-start md:items-center md:justify-between gap-1 md:gap-8 text-left">
 
                                 {/* Contact Info (Left) */}
-                                <div className="flex flex-col gap-2 font-bold text-lg">
+                                <div className="flex flex-col gap-0 md:gap-2 font-bold text-lg w-full md:w-auto text-left md:mt-4">
                                     <p>+977 9749302803</p>
                                     <p>thisisartistakash@gmail.com</p>
                                 </div>
 
                                 {/* Social Icons (Right) */}
-                                <div className="flex gap-4">
+                                <div className="flex gap-1 md:gap-4 w-full md:w-auto md:mt-0 mt-8">
                                     <a href="https://www.facebook.com/aakash.bohara.42441" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:opacity-80 transition-opacity">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="0" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
