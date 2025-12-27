@@ -5,7 +5,7 @@ import MangaSection from "@/components/MangaSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-[#70C1C6] py-10">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-[#70C1C6]">
       {/* Container wraps image exactly so percentages are relative to image size */}
       <div className="relative w-full max-w-2xl px-4 md:px-0">
         <Image
